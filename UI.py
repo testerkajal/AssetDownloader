@@ -11,7 +11,7 @@ st.title("Marketo Asset Downloader")
 base_url = st.text_input("Enter Marketo Instance URL", "https://your-marketo-instance.mktorest.com")
 client_id = st.text_input("Enter Client ID", "", type="password")
 client_secret = st.text_input("Enter Client Secret", "", type="password")
-asset_types = ["forms", "emails", "programs", "smartCampaigns", "lists", "smartLists"]
+asset_types = ["forms", "emails", "programs", "smartCampaigns", "staticLists", "smartLists"]
 selected_asset = st.selectbox("Select Asset Type", asset_types)
 
 
